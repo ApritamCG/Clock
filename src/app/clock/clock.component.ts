@@ -25,6 +25,6 @@ export class ClockComponent {
   }
 
   private updateTime(): void {
-    this.time = moment().format('hh:mm:ss A');
+    this.time = moment().format('LTS');
   }
 }
